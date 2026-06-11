@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap');
+
+@layer base {
+  body {
+    @apply bg-[#F5F0EA] text-[#3D3929] antialiased selection:bg-[#D97706]/20;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer utilities {
+  /* Subtle Claude-style scrollbar */
+  .claude-scroll::-webkit-scrollbar {
+    width: 6px;
+  }
+  .claude-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .claude-scroll::-webkit-scrollbar-thumb {
+    background: #C4B8A5;
+    border-radius: 999px;
+  }
+  .claude-scroll::-webkit-scrollbar-thumb:hover {
+    background: #A89B86;
+  }
+}

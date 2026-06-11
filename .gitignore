@@ -141,3 +141,18 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+.env_venv/
+
+# Python Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and Editors
+.vscode/
+.idea/
